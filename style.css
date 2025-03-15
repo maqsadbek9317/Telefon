@@ -1,0 +1,89 @@
+/* Asosiy dizayn */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #fff4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.product-details {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin-left: 20px;
+    max-width: 500px;
+}
+
+.product-info h2 {
+    color: #000000;
+}
+
+.product-info .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-info ul li {
+    background-color: #d2d2d2;
+    margin: 2%;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.button{
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+}
